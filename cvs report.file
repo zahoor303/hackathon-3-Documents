@@ -1,0 +1,17 @@
+*{Test Cases Report}
+1. Test Case Details
+Test Case ID	Test Description	Expected Result	Actual Result	Status	Comments
+1	Measure First Contentful Paint (FCP)	FCP should be below 1.8s	FCP is 1.2s	Pass	Good performance
+2	Measure Largest Contentful Paint (LCP)	LCP should be below 2.5s	LCP is 2.5s	Pass	Borderline acceptable
+3	Measure Cumulative Layout Shift (CLS)	CLS should be below 0.1	CLS is 0.15	Fail	Requires improvement
+4	Measure Total Blocking Time (TBT)	TBT should be below 200ms	TBT is 150ms	Pass	Good performance
+5	Measure Speed Index	Speed Index should be below 4s	Speed Index is 3.0s	Pass	Good performance
+6	Measure Accessibility Score	Score should be above 90%	Score is 85%	Fail	Accessibility improvements needed
+7	Measure SEO Score	Score should be above 90%	Score is 95%	Pass	Excellent SEO
+8	Measure Performance Score	Performance score should be above 90	Score is 88	Fail	Optimize for better performance
+9	Measure Best Practices Score	Score should be above 90%	Score is 92%	Pass	Good adherence to best practices
+10	Ensure Mobile-Friendliness	Site should be mobile-friendly	Site is mobile-friendly	Pass	No issues detected
+11	Ensure HTTPS Usage	Site should use HTTPS	HTTPS detected	Pass	No issues detected
+12	Check Image Optimization	Images should be optimized	Images are partially optimized	Fail	Optimize large images
+13	Check Render-Blocking Resources	No render-blocking resources	Some blocking resources found	Fail	Minimize render-blocking resources
+14	Verify Proper Font Loading	Fonts should load efficiently	Efficient font loading detected	Pass	Good performance
